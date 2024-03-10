@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PRODUCT DETAILS </title>
+	</head>
+	<body bgcolor="violet">
+		<h1>***** PRODUCT INVOICE *****</h1>
+		<form method="get" action="./ProductInvoice">
+			<label>PRODUCT ID : </label>
+			<input type="number" name="prodId" required /><br><br>
+			<label>PRODUCT NAME : </label>
+			<input type="text" name="prodName" required /><br><br>
+			<label>PRODUCT PRICE : </label>
+			<input type="number" name="prodPrice" min="0" max="16000" /><br><br>
+			<label>PRODUCT QUANTITY : </label>
+			<input type="number" name="prodQuantity" min="0" max="8" required /><br><br>
+			<button type="submit">PRINT INVOICE</button>
+		</form>
+	</body>
+</html>
