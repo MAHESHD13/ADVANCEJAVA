@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>AdvJava-ArithmeticOperations-05</display-name>
+  <welcome-file-list>
+    <welcome-file>operations.html</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ArithmeticOperations</display-name>
+    <servlet-name>ArithmeticOperations</servlet-name>
+    <servlet-class>com.advjava.ArithmeticOperations</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ArithmeticOperations</servlet-name>
+    <url-pattern>/ArithmeticOperations</url-pattern>
+  </servlet-mapping>
+</web-app>
